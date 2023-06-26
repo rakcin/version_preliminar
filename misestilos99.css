@@ -1,0 +1,186 @@
+.header_garantias{
+
+    position: relative;
+    padding: 13px 0;
+    background: #bb8220;
+    color: #0e0d04;
+    transition: margin-bottom .25s ease-in-out;
+}
+
+.header_garantias a{
+    display: block;
+    background-color: #c9c0c0;
+	padding: 10px 10px 10px 10px;
+	border: 0;
+	font-size: 14px; 
+	color: 	rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+.header_garantias a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #999999;
+    cursor: pointer;
+
+
+
+}
+.header {
+    position: relative;
+    padding: 13px 0;
+    background: #ffffff;
+    color: #0e0d04;
+    transition: margin-bottom .25s ease-in-out;
+}
+
+header a{
+ display: block;
+    background-color:#bb8220;
+	
+	border: 0;
+	font-size: 14px; 
+	color: 	rgb(223, 213, 196);
+}
+
+header a :hover{
+    background-color: rgb(255, 255, 255);
+    color: #999999;
+    cursor: pointer;
+
+
+}
+body{
+
+    background-image: url(../linea/img/34-PISO-REC.-MADERA-GRANADILLO-CAFÉ-20-x-90-cm.png);
+}
+.container {
+    max-width: 1480px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 var(--mobile-container-gutter);
+}
+
+.container a{
+    display: block;
+    background-color: #bb8220;
+	padding: 10px 10px 10px 10px;
+	border: 0;
+	font-size: 14px; 
+	color: 	rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.container a:hover{
+
+    background-color: #c9c0c0;
+    color: #000000;
+    cursor: pointer;
+
+}
+
+.header__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer1 {
+    background:#bb8220;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+.footer2 {
+    background:#bb8220;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+nav {
+    background: #bb8220;
+    display: flex;
+    justify-content:center;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px;
+}
+nav a:hover {
+    color: #0e0d04;
+    font-size: 20px;
+}
+nav li {
+    display: inline-block;
+    /*list-style: none;*/ 
+    padding: 5px;
+    cursor: pointer;
+    /*background-color: #bcb91a;*/
+}
+nav li:hover {
+    /*background-color: #350dd3;*/
+    color: aliceblue;
+}
+
+section {
+    margin: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+   
+}
+
+section h1, section h2 {
+    margin-top: 10px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+   /* box-shadow: 0px 2px 4px red;*/
+   
+}
+
+.Intercalada{
+    margin: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background:#277b81;
+}
+
+form {
+    padding: 60px;
+    max-width: 400px;
+    background-color: #807e7d;
+    margin: 0 auto;
+
+}
+form input {
+    margin-bottom: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 10px;
+    box-sizing:border-box;
+    border: none;
+    color: #d36d0d;
+    font-size: 15px;
+    resize: none;
+}
+form button {
+    display: block;
+    background-color: #c9c0c0;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 14px; 
+	color: 	rgb(255, 255, 255);
+}
+form button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #999999;
+    cursor: pointer;
+
+}
+body{
+height: 60vh !important;
+    background: url(proyecto/img/HD-wallpaper-wood-shop.jpg) no-repeat center;
+    background-size: cover;
+}

@@ -1,0 +1,40 @@
+body{
+
+    background-image:url(img/lll.jpg);
+    background-size: cover;  
+    font-family: 'Noto Serif', serif;
+    
+    }
+    .contenedor {
+        position: absolute;
+        top: 50%;
+        right: 25%;
+        
+    }
+    
+    p{
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    
+    
+    }
+    .contenedor button{
+        display: block;
+        background-color: #7a4921;
+        padding: 10px 45px 10px 45px;
+        border-radius: 100px;
+        font-size: 14px; 
+        color:  #7a4921;
+    }
+    .contenedor button[type="submit"]:hover {
+        background-color: #c5a081;
+        color: #999999;
+        cursor: pointer;
+    
+    }
+    .contenedor button a{
+    
+    
+        color:rgb(255, 255, 255)
+    }
