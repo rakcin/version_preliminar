@@ -13,7 +13,7 @@ $descripcion_daño = $_POST["descripcion_daño"];
 $sql="INSERT INTO garantias (id_garantia, estado_pro, nombre_cli, fecha_entrega, fecha_compra, descripcion_daño) VALUES ('$id_garantia', '$estado_pro', '$nombre_cli', '$fecha_entrega','$fecha_compra','$descripcion_daño')";
 if($conn -> query($sql)){
     echo"registro exitoso";
-    include_once "rta_ga.php";
+    include_once "cliente.php";
 }
 else{
     echo "error no se ejecuto";

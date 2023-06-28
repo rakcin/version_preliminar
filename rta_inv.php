@@ -62,14 +62,14 @@ echo '<a href="Gestion_inventarios.html" class="btn btn-warning" tabindex="-1" r
 height: 450px;">
         <tr>
             <th>idpro</th>
-            <th>nombre_pro</th>
+            <th>nombre_producto</th>
             <th>descripcion</th>
-            <th>nombre_prov</th>
+            <th>nombre_proveedor</th>
             <th>cantidad</th>
-            <th>ult_fech_ing</th>
-            <th>ult_cant_ing</th>
-            <th>ult_fech_sal</th>
-            <th>ult_cant_sal</th>
+            <th>ultima_feche_ingreso</th>
+            <th>ultima_cantidad_ingreso</th>
+            <th>ultima_fecha_salida</th>
+            <th>ultima_cantidad_salida</th>
             <th></th>
             <th></th>
            

@@ -1,8 +1,4 @@
-<?php
-require_once "validacioncli.php";
 
-
-?>
 
 
 <!DOCTYPE html>
@@ -48,9 +44,9 @@ require_once "validacioncli.php";
             <center> 
                 <a href="inicio.php" class="btn" tabindex="-1" role="button" aria-disabled="true" style="background-color:  #bb8220;">Inicio</a>
                 
-                <a href="nuestrosproyectos.html" class="btn" tabindex="-1" role="button" aria-disabled="true" style="background-color:  #bb8220;">Nuestros proyectos</a>
+                <a href="soligara.html" class="btn" tabindex="-1" role="button" aria-disabled="true" style="background-color:  #bb8220;">solicitar garantia</a>
                 
-                <a href="contactenos.html"class="btn" tabindex="-1" role="button" aria-disabled="true" style="background-color:  #bb8220;">contactenos</a>
+                <a href="pagina500.html"class="btn" tabindex="-1" role="button" aria-disabled="true" style="background-color:  #bb8220;">solicitar cotizacion</a>
            
             </center>
         

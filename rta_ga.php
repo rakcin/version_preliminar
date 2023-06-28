@@ -22,7 +22,7 @@
                         
                     </div> 
                     <div class="col-6"> 
-                        <H1>Gestion de ventas</H1>
+                        <H1>Gestion de garantias</H1>
                     </div>
                     <div class="col-2"> 
                         <h5 >Linea Geometrica S.A.S</h5>
@@ -63,9 +63,9 @@ $sql= "SELECT * FROM garantias";
 echo '<a href="form_gara.html" class="btn btn-warning" tabindex="-1" role="button" aria-disabled="true" >NUEVO</a><table class="table table-striped" style="width: 400px;
 height: 450px;">
         <tr>
-            <th>id_garantia</th>
-            <th>estado_pro</th>
-            <th>nombre_cli</th>
+            <th>numero_documento</th>
+            <th>estado_garantia</th>
+            <th>nombre_cliente</th>
             <th>fecha_entrega</th>
             <th>fecha_compra</th>
             <th>descripcion_daño</th>
@@ -78,7 +78,7 @@ if ($rta = $conn -> query($sql)){
     while($row = $rta -> fetch_assoc()){
         $id_garantia= $row["id_garantia"];
         $estado_pro = $row["estado_pro"];
-        $nombre_cli = $row["estado_pro"];
+        $nombre_cli = $row["nombre_cli"];
         $fecha_entrega = $row["fecha_entrega"];
         $fecha_compra = $row["fecha_compra"];
         $descripcion_daño = $row["descripcion_daño"];

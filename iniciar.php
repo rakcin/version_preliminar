@@ -8,6 +8,8 @@ $query="SELECT * FROM registro where username = '$username' and contraseña ='$c
 $result = $conn-> query($query);
 $row=$result ->fetch_assoc();
 
+
+
 if($result->num_rows>0){
   session_start();
 
@@ -21,6 +23,9 @@ if($result->num_rows>0){
       echo"el usuario o contraseña son incorrectos";
 
     }
+
+
+    
 
 
 ?>
