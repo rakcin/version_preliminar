@@ -17,14 +17,15 @@ die("Conexión fallida: " . mysqli_connect_error());
 }
 
 $sql = "CREATE TABLE registro (
-    
+    username varchar(30) primary key  not null, 
     numDoc INT(11)NOT NULL,
     nombres VARCHAR(30)NOT NULL,
     apellidos VARCHAR(30)NOT NULL,
     numCon INT (13)NOT NULL,
     direccion VARCHAR (30)NOT NULL,
     email VARCHAR(50)NOT NULL,
-    contraseña VARCHAR (50)NOT NULL)
+    contraseña VARCHAR (50)NOT NULL,
+    rol int(3)not null)
     ";
 
     if(mysqli_query($conn,$sql)){

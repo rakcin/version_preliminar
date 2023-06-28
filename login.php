@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,7 +18,7 @@
 <main> 
 	
 
-<form  action="modulos.php" method = "POST" target=""  style="width: 400px;
+<form  action="iniciar.php" method = "POST" target=""  style="width: 400px;
 height: 450px;
 background: #efd5a8;
 color: #000000;
@@ -46,13 +48,13 @@ padding: 70px 40px;" class="finicio row g-1 needs-validation" novalidate >
 
       <div class="col-md-12">
         <label for="validationCustom02" class="form-label">Usuario:</label></label>
-        <input type="text" class="form-control" name="nombres" id="validationCustom02" placeholder="usuario"value="" required>
+        <input type="text" class="form-control" name="username" id="validationCustom02" placeholder="Usuario:"value="" required>
       
         <div class="valid-feedback">
-          Correo digitado corectamente
+        Usuario digitado corectamente
         </div>
           <div class="invalid-feedback">
-            Por favor digite su correo
+            Por favor digite su Usuario
         </div>
     
     
