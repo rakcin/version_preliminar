@@ -16,19 +16,14 @@ die("Conexión fallida: " . mysqli_connect_error());
 
 }
 
-$sql = "CREATE TABLE registro (
-    
-    numDoc INT(11)NOT NULL,
-    nombres VARCHAR(30)NOT NULL,
-    apellidos VARCHAR(30)NOT NULL,
-    numCon INT (13)NOT NULL,
-    direccion VARCHAR (30)NOT NULL,
-    email VARCHAR(50)NOT NULL,
-    contraseña VARCHAR (50)NOT NULL)
+$sql = "CREATE TABLE rol (
+    idRol INT(6) PRIMARY KEY,
+    cargo VARCHAR(30)NOT NULL)
     ";
+    
 
     if(mysqli_query($conn,$sql)){
-        echo"Tabla registro creada";
+        echo"Tabla rol creada";
 
 
 

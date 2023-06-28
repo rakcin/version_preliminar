@@ -80,7 +80,7 @@ padding: 70px 40px;" class="finicio row g-1 needs-validation" novalidate >
     <button class="btn btn-primary" type="submit">Iniciar sesión</button>
   </div></center>
   <a href="RecuperarContraseña.html">Olvidaste tu Contraseña?</a><br>
-  <a href="registro.html">No tienes cuenta?</a><br>
+  <a href="forminv.html">No tienes cuenta?</a><br>
   <a href="pagina404.html">Ayuda?</a><br>
   <a href="inicio.html">inicio</a><br>
 
